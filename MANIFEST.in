@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_tabulator *.css
+recursive-include frappe_tabulator *.csv
+recursive-include frappe_tabulator *.html
+recursive-include frappe_tabulator *.ico
+recursive-include frappe_tabulator *.js
+recursive-include frappe_tabulator *.json
+recursive-include frappe_tabulator *.md
+recursive-include frappe_tabulator *.png
+recursive-include frappe_tabulator *.py
+recursive-include frappe_tabulator *.svg
+recursive-include frappe_tabulator *.txt
+recursive-exclude frappe_tabulator *.pyc
